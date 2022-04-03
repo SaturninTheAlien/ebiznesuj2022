@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 11 Scala sources to /mnt/Elephant/InfUJ/Inf7/ebiznes/scala/scala3/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/Elephant/InfUJ/Inf7/ebiznes/scala/scala3/app/Module.scala:6:11: object post is not a member of package v1[0m
+[0m[[0m[31merror[0m] [0m[0mimport v1.post._[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/Elephant/InfUJ/Inf7/ebiznes/scala/scala3/app/Module.scala:18:10: not found: type PostRepository[0m
+[0m[[0m[31merror[0m] [0m[0m    bind[PostRepository].to[PostRepositoryImpl].in[Singleton]()[0m
+[0m[[0m[31merror[0m] [0m[0m         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/Elephant/InfUJ/Inf7/ebiznes/scala/scala3/app/Module.scala:18:29: not found: type PostRepositoryImpl[0m
+[0m[[0m[31merror[0m] [0m[0m    bind[PostRepository].to[PostRepositoryImpl].in[Singleton]()[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 23 s, completed Apr 3, 2022 2:22:33 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
