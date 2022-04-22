@@ -31,12 +31,6 @@ suspend fun createDiscordBot(bot_token:String){
     }
 
     val bot = Bot(client, bot_token)
-    /*val message = bot.getLastMessage("966050401478639687")
-    println(message)
-    if(message!=null)
-    {
-        println(message.content);
-    }*/
 
     val bps = BotHttpPollingService(bot);
     bps.runForeverOnChannel("967140711705215047");

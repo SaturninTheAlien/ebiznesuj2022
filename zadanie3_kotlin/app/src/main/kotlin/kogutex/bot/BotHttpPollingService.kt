@@ -3,7 +3,7 @@ package kogutex.bot;
 import kotlinx.coroutines.delay
 
 /*
-Tymczasowo http pooling.
+Tymczasowo http polling.
 Kiedyś postaram się zrobić wersję w oparciu o WebScoket
 */
 
